@@ -4,4 +4,27 @@
 
 var c = require ("skilstak-colors");
 
-console.log(c.multi("Welcome To The Magic Eight Ball!"));
+var answers = [
+ "Yes, but I'm not talking to you anymore! Ha ha ha ha ha ha ha ha ha ha!",
+ "Nooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo!!!!!!!!!!!!!!!!!!",
+ "Kylo Ren willlllllllllllll get you!",
+ " Darth Vader died!", 
+ "Why are you here?",
+ "WAMPA ANA SPACE SLUG!!!!!!!!!!!!!!!!!!!!!!!!!!!!!",
+ "Yea, right.",
+ "TEDDY BEARS WITH BOWS AND ARROWS!!!!!!!!!!",
+ "Don't try to hide from the dark side!",
+ "I AM YOUR FATHER!!!!!!!!!!!!",
+ " If your not with me, then your my enemy!"
+
+
+];
+var easterEggs = [
+  ["die|death","Why are you a donkey?"]
+  ["love|kiss|hug","I'm about to shut off, that's so gross."]  
+
+function print(message) {
+process.stdout.write(message + "\n")
+}
+
+print("Welcome To The Magic Eightball")
