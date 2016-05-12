@@ -20,7 +20,7 @@ var answers = [
 
 ];
 var easterEggs = [
-  ["die|death","Why are you a donkey?"]
+  ["die|death","You are the best!"]
   ["love|kiss|hug","I'm about to shut off, that's so gross."]  
 
 function print(message) {
